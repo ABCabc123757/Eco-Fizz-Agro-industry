@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ecofizz Agro Industry</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg,#ff9a9e,#fad0c4,#fad0c4,#fbc2eb,#a6c1ee);
+    background-size:400% 400%;
+    animation: gradient 8s ease infinite;
+    color:white;
+    text-align:center;
+}
+
+@keyframes gradient{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
+
+header{
+    padding:50px 20px;
+    background:rgba(0,0,0,0.3);
+}
+
+header h1{
+    font-size:40px;
+    letter-spacing:2px;
+}
+
+nav{
+    background:#000;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+section{
+    padding:60px 20px;
+}
+
+.product-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.product-box{
+    background:rgba(255,255,255,0.2);
+    padding:20px;
+    width:250px;
+    border-radius:15px;
+    backdrop-filter:blur(10px);
+    transition:0.3s;
+}
+
+.product-box:hover{
+    transform:scale(1.05);
+    background:rgba(255,255,255,0.3);
+}
+
+button{
+    padding:10px 20px;
+    border:none;
+    border-radius:25px;
+    background:#ff5722;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#ff9800;
+}
+
+footer{
+    background:black;
+    padding:15px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Ecofizz Agro Industry</h1>
+    <p>Fresh • Pure • Hygienic Fruit Beverages</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p style="max-width:700px;margin:20px auto;">
+        Ecofizz Agro Industry is a trusted manufacturer of high-quality fruit drinks and agro-based beverages.
+        We focus on hygiene, freshness and affordable pricing to serve customers with the best taste experience.
+    </p>
+</section>
+
+<section id="products">
+    <h2>Our Products</h2>
+    <div class="product-container">
+        <div class="product-box">
+            <h3>Mango Drink</h3>
+            <p>Delicious mango flavor pouch drink.</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="product-box">
+            <h3>Orange Drink</h3>
+            <p>Refreshing orange fruit beverage.</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="product-box">
+            <h3>Mixed Fruit</h3>
+            <p>Healthy and tasty fruit mix drink.</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Shahjahanpur, Uttar Pradesh</p>
+    <p>📞 +91-XXXXXXXXXX</p>
+    <p>📧 ecofizzagro@gmail.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Ecofizz Agro Industry | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
